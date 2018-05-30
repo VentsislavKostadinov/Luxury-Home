@@ -223,7 +223,7 @@ header .btn-link:hover {
   width: 300px;
   height: 279px;
 }
-@media (max-width: 560px) {
+@media (max-width: 650px) {
   #magazine .head-magazine h3 {
     font-size: 35px;
   }
