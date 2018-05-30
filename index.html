@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Luxury House</title>
+
+
+
+    <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="js/pop-up-button.js"></script>
+    <script src="js/scrolling.js"></script>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="less/style.css">
+
+
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+    <a class="navbar-brand scroll" href="#home"><img class="logo-brand" src="images/logo-center-blue.png" alt="logo"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#magazine">Magazine</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#contacts">Contacts</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+
+<header id="home">
+    <article>
+        <img src="images/logo-center.png" alt="logo-brand"/>
+        <h3>Luxury all-Inclusive student accommodation</h3>
+        <h1>Some things aren't too good to be true</h1>
+    </article><br><br>
+    <button type="button" class="btn btn-link">Luxury Home</button>
+
+</header>
+
+<!-- POP UP BUTTON -->
+
+<button type="button" class= "btn btn-primary" onclick="topUpFunction()" id="top-button">Go to Top</button>
+
+<!-- OPTIONS -->
+
+<div id="options">
+    <div class="container-fluid">
+        <div class="row">
+    <article class="col-lg-3 col-md-6">
+        <h4>The Glassworks</h4>
+        <a href="#">View More...</a>
+    </article>
+    <article class="col-lg-3 col-md-6">
+        <h4>The Edge</h4>
+        <a href="#">View More...</a>
+    </article>
+    <article class="col-lg-3 col-md-6">
+        <h4>The Ascent</h4>
+        <a href="#">View More...</a>
+    </article>
+    <article class="col-lg-3 col-md-6">
+        <h4>Gallery</h4>
+        <a href="#">View More...</a>
+    </article>
+        </div>
+    </div>
+</div>
+
+<!-- GALLERY -->
+
+<section id="gallery">
+    <h2 class="text-center">Gallery</h2><br>
+  <div class="container-fluid">
+      <div class="row">
+          <article class="col-lg-4 col-sm-6">
+              <h3>Glass Table</h3>
+              <img class="img-fluid" src="images/glass-1.jpg" alt="glass-1"/><br><br>
+              <button type="button" class="btn btn-link">View more...</button>
+          </article>
+          <article class="col-lg-4 col-sm-6">
+              <h3>Glass Bathroom</h3>
+              <img class="img-fluid" src="images/glass-2.png" alt="glass-2"/><br><br>
+              <button type="button" class="btn btn-link">View more...</button>
+          </article>
+          <article class="col-lg-4 col-sm-6">
+              <h3>Glasswork</h3>
+              <img class="img-fluid" src="images/glass-3.jpg" alt="glass-3"/><br><br>
+              <button type="button" class="btn btn-link">View more...</button>
+          </article>
+
+      </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+
+<section id="blog">
+    <div class="container-fluid">
+        <div class="head">
+            <h3>LUXURY PORTFOLIO<span>BLOG</span></h3>
+        </div>
+        <div class="row">
+            <article class="col-lg-4 col-md-6 col-sm-12">
+                <h3>LUXURY PORTFOLIO AND MANSION GLOBAL HOST "A NIGHT IN SOHO"</h3><br>
+                <p>On Tuesday, April 3, 2018 Luxury Portfolio and Mansion Global co-hosted
+                    “A Night in Soho” in one of Manhattan’s premier penthouses at One Vandam
+                    listed by Stribling & Associates. The event was the perfect opportunity to
+                    highlight the potential to entertain 100+ people in this, the last penthouse
+                    available in the building. The three-story space highlighted the best of SoHo
+                    including the incredible architecture and the high-end food and entertainment
+                    found in the area.</p>
+            </article>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img class="img-fluid" src="images/blog-pic.JPG" alt="blog-image"/>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- MAGAZINE -->
+
+<section id="magazine">
+    <div class="container-fluid">
+        <div class="head-magazine">
+            <h3>LUXURY PORTFOLIO<span>MAGAZINE</span></h3>
+        </div>
+        <div class="row">
+            <div class=" col-md-6 col-sm-12">
+                  <img class="img-fluid" src="images/luxury-magazine.jpg" alt="magazine"/>
+              </div>
+            <article class = "col-lg-4 col-offset-2 col-md-6 col-sm-12">
+                <h2>LOOK INSIDE</h2>
+                <img class="img-fluid" src="images/room-5.jpg" alt="room"/>
+                <br><br>
+                <h3>LUXURY EXPOUNDED ON FAR & WIDE</h3><br>
+                <p>We know a commitment at this level requires a rock-solid relationship
+                    with experts who truly understand worldwide markets, and with our
+                    established leaders in over 60 countries, you can rest assured.
+                    As a global network with 50 years of proven results, our members are
+                    more than comfortable. Email us today for a free copy.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer id="contacts">
+    <div class="container-fluid">
+        <div class="row">
+            <h4 class="col-lg-5">Copyright © 2018 Luxury Home ™ All Rights Reserved</h4>
+            <div class="col-lg-2 ml-auto">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
