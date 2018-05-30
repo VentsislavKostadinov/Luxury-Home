@@ -55,7 +55,7 @@ body {
 header {
   height: 77vh;
   max-width: 100%;
-  background: url("../images/luxury-home.jpg") no-repeat center center fixed;
+  background: url("../images/luxury-home.jpg") no-repeat;
   background-size: cover;
   text-align: center;
   color: #ffffff;
