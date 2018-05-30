@@ -161,6 +161,11 @@ header .btn-link:hover {
   color: #ffffff;
   background-color: #000000;
 }
+@media (max-width: 769px) {
+  #gallery {
+    margin-top: 210px;
+  }
+}
 /* BLOG */
 #blog {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/background-blog.jpg") no-repeat center center;
