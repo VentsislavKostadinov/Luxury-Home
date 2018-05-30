@@ -189,17 +189,12 @@ header .btn-link:hover {
   border-radius: 50%;
   margin-top: 12px;
 }
-@media (max-width: 540px) {
+@media (max-width: 800px) {
   #blog .head h3 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 /* HIDE BLOG UNDER 480PX */
-@media (max-width: 480px) {
-  #blog {
-    display: none;
-  }
-}
 /* MAGAZINE*/
 #magazine {
   padding-bottom: 50px;
@@ -227,9 +222,9 @@ header .btn-link:hover {
   width: 300px;
   height: 279px;
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   #magazine .head-magazine h3 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 /* FOOTER */
