@@ -38,7 +38,7 @@ body {font-family: Montserrat, sans-serif; }
   color: #00aaff;
   font-size: 18px;
 
-  &:hover {color: #80bfff;}
+  &:hover {color: @white-color;}
 
   .navbar-light .navbar-brand {
 
@@ -121,7 +121,6 @@ header {
   display: none;
   position: fixed;
   bottom: 20px;
-  //right: 30px;
   z-index: 99;
   font-size: 18px;
   border: none;
@@ -247,17 +246,13 @@ header {
       }
     }
   }
-
 }
 
 /* HIDE BLOG UNDER 480PX */
 
  @media (max-width: 480px) {
 
-  #blog {
-
-    //display: none;
-  }
+  #blog {display: none;}
 }
 
 /* MAGAZINE*/
