@@ -103,9 +103,14 @@ header {
 
   @media (max-width: 800px) {
 
+    .btn-link { display: none};
+
     article {
-      h1 {font-size: 20px;}
-      h3 {font-size: 20px;}
+      h1, h3 { display: none;}
+
+      img {
+        display: none;
+      }
     }
   }
 }
@@ -150,6 +155,12 @@ header {
 
   @media (max-width: 769px) {
     margin-top: -261px;
+
+    article {
+
+      h4 {border-top: none;}
+      a {display: none;}
+    }
   }
 }
 
