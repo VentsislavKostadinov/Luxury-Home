@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
 /* VARAIBLES */
 /* MIXINS */
 .btn-links {
@@ -75,6 +80,11 @@ header .btn-link:hover {
   text-decoration: none;
   list-style-type: none;
   color: #ffffff;
+}
+@media (max-width: 1366px) {
+  header article {
+    padding-top: 0;
+  }
 }
 @media (max-width: 800px) {
   header .btn-link {
